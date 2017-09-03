@@ -28,7 +28,9 @@ collections:
 
 page_gen-dirs: true
 page_gen:
-  - data: 'data'
+  - data: 'people'
+    name: 'name'
+  - data: 'organisations'
     name: 'name'
 
 data_types:

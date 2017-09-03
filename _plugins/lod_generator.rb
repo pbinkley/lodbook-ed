@@ -7,9 +7,7 @@
 # Additions and modifications (c) 2016 Tim Sherratt (@wragge)
 # Distributed under the conditions of the MIT License
 
-
 module Jekyll
-
   # this class is used to tell Jekyll to generate a page
   class DataPage < Page
 
@@ -40,7 +38,6 @@ module Jekyll
         @dir = dir
         @name = filename + "." + extension.to_s
       end
-
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), template + ".html")
       self.data['title'] = data[name]
@@ -81,14 +78,11 @@ module Jekyll
 
           # records is the list of records defined in _data.yml
           # for which we want to generate different pages
-          records = nil
+          records = []
           data_spec['data'].split('.').each do |level|
-            if records.nil?
-              records = site.data[level]
-            else
-              records = records[level]
-            end
+            records += site.data[level]
           end
+
           records.each do |record|
             # Added 3 lines: Add context and type for JSON-LD to each record
             collection = record["collection"]
@@ -151,13 +145,14 @@ module Jekyll
       if name == ""
         name = input
       end
-      data = @context.registers[:site].data['data']
+      data = @context.registers[:site].data
       collection = nil
-      data.each do |record|
-        if name == record["name"]
-          
-          collection = record["collection"]
-          break
+      data.each do |key, group| 
+        group.each do |record|
+          if name == record["name"]
+            collection = record["collection"]
+            break
+          end
         end
       end
       if collection
