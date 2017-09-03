@@ -1,21 +1,15 @@
-- name: James Minahan
+- name: Robert C. Binkley
   collection: people
   data:
       description: ""
-      parent:
-        - name: Cheong Ming
-          collection: people
       knows:
-        - name: JTT Donohoe
+        - name: Roy Needham
           collection: people
-- name: Cheong Ming
+- name: Roy Needham
   collection: people
   data:
       description: ""
-      child:
-        -  name: James Minahan
-           collection: people
-- name: JTT Donohoe
+- name: William Adams
   collection: people
   data: 
       description: ""

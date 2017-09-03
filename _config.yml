@@ -1,17 +1,17 @@
 # Built with Jekyll 3.2.0
 
 # Setup
-title:               "James Minahan's Homecoming"
-tagline:             'A story of race and belonging in White Australia'
+title:               "Allentown Diary"
+tagline:             'In training for the USAAS at Camp Crane, Allentown, Pennsylvania, in July 1917'
 description:         'An attempt to use Jekyll and Ed. to publish narratives enriched with Linked Open Data'
-url:                 'http://wragge.github.io'
-baseurl:             '/lodbook-ed'
-status:              'Draft only, March 2017'
+url:                 'https://wallandbinkley.com'
+baseurl:             '/rcb/books/lodbook-ed'
+status:              'Draft only, Sept. 2017'
 
 # About/contact
 author:
-  name:              Kate Bagnall
-  url:               https://twitter.com/baibi
+  name:              Peter Binkley
+  url:               https://twitter.com/pabinkley
 
 # Permalinks
 
