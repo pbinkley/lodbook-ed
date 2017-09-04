@@ -2,14 +2,176 @@
   collection: people
   data:
       description: ""
+      memberOf: 
+        - name: SSU 578
+          collection: organisations
       knows:
         - name: Roy Needham
+          collection: people
+      sibling:
+        - name: Charles H. Binkley
           collection: people
 - name: Roy Needham
   collection: people
   data:
       description: ""
+- name: Wolff
+  collection: people
+  data:
+    description: ""
+- name: the pastor
+  collection: people
+  data:
+    description: ""
+- name: Miss Ritz
+  collection: people
+  data:
+    description: ""
+- name: Farley
+  collection: people
+  data:
+    description: a Minnesota man
+- name: Mrs. Rhue
+  collection: people
+  data:
+    description: ""
+- name: Robert Dingley
+  collection: people
+  data:
+    description: ""
+- name: Otto Lachmund
+  collection: people
+  data:
+    description: ""
+- name: Charles H. Binkley
+  collection: people
+  data:
+    description: ""
+- name: Aunt Violetta
+  collection: people
+  data:
+    description: ""
 - name: William Adams
   collection: people
   data: 
       description: ""
+- name: Mervyn Crobaugh
+  collection: people
+  data:
+    description: ""
+- name: Art Cardin
+  collection: people
+  data:
+    description: ""
+- name: John Brokenshire
+  collection: people
+  data:
+    description: ""
+- name: Dave Eliot
+  collection: people
+  data:
+    description: ""
+- name: Whittier Wellman
+  collection: people
+  data:
+    description: ""
+- name: Edward Leaf
+  collection: people
+  data:
+    description: ""
+- name: Sammy Seward
+  collection: people
+  data:
+    description: ""
+- name: Fat Hoffman
+  collection: people
+  data:
+    description: ""
+- name: Helen Deamer
+  collection: people
+  data:
+    description: ""
+- name: Jones
+  collection: people
+  data:
+    description: ""
+- name: Prof. Gage
+  collection: people
+  data:
+    description: ""
+- name: McDowell
+  collection: people
+  data:
+    description: ""
+- name: Pete Lindsey
+  collection: people
+  data:
+    description: ""
+- name: Schwab
+  collection: people
+  data:
+    description: ""
+- name: Grainger
+  collection: people
+  data:
+    description: ""
+- name: Elmer Heald
+  collection: people
+  data:
+    description: ""
+- name: Leah Rhue
+  collection: people
+  data:
+    description: ""
+- name: Mary Robs
+  collection: people
+  data:
+    description: ""
+- name: Miss Dilcher
+  collection: people
+  data:
+    description: ""
+- name: Miss Morris
+  collection: people
+  data:
+    description: ""
+- name: Red Aubry
+  collection: people
+  data:
+    description: ""
+- name: Mr Dilcher
+  collection: people
+  data:
+    description: ""
+- name: Harold Thompson
+  collection: people
+  data:
+    description: ""
+- name: Elizabeth M. Binkley
+  collection: people
+  data:
+    description: ""
+- name: Plank
+  collection: people
+  data:
+    description: ""
+- name: Miss Ripple
+  collection: people
+  data:
+    description: ""
+- name: Beets
+  collection: people
+  data:
+    description: ""
+- name: Traxor
+  collection: people
+  data:
+    description: ""
+- name: Rix Maurer
+  collection: people
+  data:
+    description: ""
+- name: Johnson
+  collection: people
+  data:
+    description: ""
