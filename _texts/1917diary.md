@@ -149,7 +149,9 @@ Sunday morning I went to Sunday school and church. I went home with Dilcher's fo
 
 Mr Dilcher is a substantial banker of Catasaqua, but a very pleasant man. He has a fine Paige car. I was very glad that Otto Lachmund happened to be running past just as Miss Dilcher and I were climbing into the Paige. 
 
-When we got to the jail there was just a little difficulty about letting us in. Mrs. Ruhe had not come yet, and they didn't know whether we were morphine peddlers or not. But quite a crowd gathered and pretty soon they let us in. The jail is a very modern one, with three tiers of cells, above each other. But it is so arranged that from a little platform a court yard containing most of the cells can be seen. On this platform the whole bunch gathered [did I miss a page in scanning?] and superiority. 
+When we got to the jail there was just a little difficulty about letting us in. Mrs. Ruhe had not come yet, and they didn't know whether we were morphine peddlers or not. But quite a crowd gathered and pretty soon they let us in. The jail is a very modern one, with three tiers of cells, above each other. But it is so arranged that from a little platform a court yard containing most of the cells can be seen. On this platform the whole bunch gathered and sang a lot of songs. The prisoners sang so loud they fairly drowned out our voices. We sang the songs the boys selected -- "*Where is my wondering boy tonight?*" "*Throw out the lifeline*". Some of the prisoners have wonderful voices. One of them in particular, who sang a solo, had been on the vaudeville stage till the police found out what a fine burglar he was.
+
+My speech came off pretty well, I think, considering the situation. This is what I said. The peculiar form of the introduction was due to the fact that the guy who had made the prayer had balled things up by taking the regular hypocritical attitude of unimpeachable goodness and superiority. 
 
 "We are not here because we think we are any better than anybody else. We are here because we have a friend whom we want others to know. We are here because there are some things that mean a great deal to us; and we hope that they will mean something to others also. 
 
@@ -177,11 +179,11 @@ square deal. But there are some men to whom the world has not given a square dea
 
 "I am only a boy -- I have seen but little of the world -- but old men who have lived full lives will tell you the same thing: -- that Jesus Christ is my Friend and your Friend, and that he will help whoever ask him. 
 
-"These young men you see here are going out on a long journey. But we go with perfect confidence, knowing that Jesus Christ will be our Friend no matter what happens, we hope that all men who see before tham a long, hard journey will put their trust in the same good Friend, and receive the help that he so freely gives. 
+"These young men you see here are going out on a long journey. But we go with perfect confidence, knowing that Jesus Christ will be our *Friend* no matter what happens, we hope that all men who see before tham a long, hard journey will put their trust in the same good Friend, and receive the help that he so freely gives. 
 
 --
 
-You didn't know I was so orthodox, did you? Perhaps I was a little stereotyped in the thing, but I figured that it was the best I could do that would realy hep those men. After all the thing is to get them to think of the best things in thir own lives. I think it must have affected them a little. A few handkerchiefs came out -- blue polka dots, ot white ones. And all the old men in our crowd were saying "Amen!" at a great rate. Of course the reason I played up the uniforms and youth was that we had been introduced as boys of the Ambulance Corps and given a send off to the prisoners which made my references fit in pretty well. 
+You didn't know I was so orthodox, did you? Perhaps I was a little stereotyped in the thing, but I figured that it was the best I could do that would realy hep those men. After all the thing is to get *them* to think of the best things in thir own lives. I think it must have affected them a little. A few handkerchiefs came out -- blue polka dots, ot white ones. And all the old men in our crowd were saying "Amen!" at a great rate. Of course the reason I played up the uniforms and youth was that we had been introduced as boys of the Ambulance Corps and given a send off to the prisoners which made my references fit in pretty well. 
 
 I went home with Dilchers and had supper. 
 
@@ -198,7 +200,7 @@ Through the dark clouds shining
 Turn the dark clouds inside out   
 Till the boys come home." 
 
-They sang it over twice; then the whole congregation joined in. I tell you that song has meaning  here. 
+They sang it over twice; then the whole congregation joined in. I tell you that song has *meaning* here. 
 
 After church Grainger found me waiting outside. He asked me if I was going to take home a girl. I told him yes, if the Choir master ever let them come out and my link stood by me. He asked me if I was going to take Miss Dilcher. "No," I said. For I had told a guy named Plank to ask Miss Dilcher quickly, because I wanted Miss Morris. But the trouble was that Grainger also was waiting for Morris. 
 
@@ -230,7 +232,7 @@ Mess is getting better now. They had some of the best beans I ever ate tonight. 
 
 The other night Bill and I went to the Orpheum and witnessed a rotten show with some fake Hawaian dope that would never have gotten by in the west. We were both so sick (It was typhoid night) that we were careful to ride right by an open window on the way home. 
 
-By the way (I am just jotting down everything I can thank of). They have a swell financial system at this church.  Everybody gives a nickel or dime at Church, Sunday School, League and Church. It is just like paying admission. If a man passes the plate without making a noise they look at him as if he were trying to cheat God. 
+By the way (I am just jotting down everything I can thank of). They have a swell financial system at this church.  *Everybody* gives a nickel or dime at Church, Sunday School, League and Church. It is just like paying admission. If a man passes the plate without making a noise they look at him as if he were trying to cheat God. 
 
 Our boys are going to try to get up a dance downtown for next Tuesday. I don't know whether I will go or not. If I could get Miss Morris I would take a chance, because she is realy class. 
 
