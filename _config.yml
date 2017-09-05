@@ -7,6 +7,7 @@ description:         'An attempt to use Jekyll and Ed. to publish narratives enr
 url:                 'https://wallandbinkley.com'
 baseurl:             '/rcb/books/lodbook-ed'
 status:              'Draft only, Sept. 2017'
+googlemapsapikey:    'AIzaSyAKirUd8aZPsiObFFH7c-hv5P1jpvBjaeQ'
 
 # About/contact
 author:
@@ -32,6 +33,8 @@ page_gen:
     name: 'name'
   - data: 'organisations'
     name: 'name'
+  - data: 'places'
+    name: 'name'
 
 data_types:
   people:
@@ -42,6 +45,10 @@ data_types:
     template: 'organisation'
     dir: 'organisations'
     type: 'http://schema.org/Organization'
+  places:
+    template: 'place'
+    dir: 'places'
+    type: 'http://schema.org/Place'
 
 
 # Markdown specs

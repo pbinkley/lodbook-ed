@@ -2,6 +2,13 @@
   collection: people
   data:
       description: ""
+      sameAs:
+        - name: WorldCat
+          uri: "http://worldcat.org/entity/person/id/2628374957"
+        - name: dbpedia
+          uri: "http://dbpedia.org/page/Robert_C._Binkley"
+        - name: VIAF
+          uri: https://viaf.org/viaf/56314023/
       memberOf: 
         - name: SSU 578
           collection: organisations
@@ -10,6 +17,8 @@
           collection: people
       sibling:
         - name: Charles H. Binkley
+          collection: people
+        - name: Elizabeth M. Binkley
           collection: people
 - name: Roy Needham
   collection: people
@@ -47,14 +56,19 @@
   collection: people
   data:
     description: ""
-- name: Aunt Violetta
+- name: Violetta Barr Engle
   collection: people
   data:
-    description: ""
+    description: "Robert C. Binkley's aunt, sister of his mother."
+    birth: 1872-02-23
+    death: 1952-02-09
 - name: William Adams
   collection: people
   data: 
       description: ""
+      sameAs:
+        - name: VIAF
+          uri: https://viaf.org/viaf/74231003/
 - name: Mervyn Crobaugh
   collection: people
   data:

@@ -7,14 +7,19 @@ filename: index.html
 
 <p>{{ page.data.description }}</p>
 
-{% if page.data.knows %}
+{% for linkhash in page.data %}
+{% if linkhash[0] != 'description' and linkhash[0] != 'name' and linkhash[0] != '@type'%}
+<h3>{{ linkhash[0] }}
 <ul>
-{% for knows in page.data.knows %}
-    <li><a href="{{ site.baseurl }}/{{ knows.collection }}/{{ knows.name | slugify }}/">{{ knows.name }}</a></li>
+{% for link in linkhash[1] %}
+  {% capture url%}{% if link.collection %}{{ site.baseurl }}/{{ link.collection }}/{{ link.name | slugify }}/{% else %}{{ link.uri }}{% endif %}{% endcapture %}
+    <li>
+      <a href="{{ url }}">{{ link.name }}</a>
+    </li>
 {% endfor %}
 </ul>
 {% endif %}
-
+{% endfor %}
 
 {{ page | jsonldify }}
 
