@@ -1,8 +1,48 @@
 - name: SSU 578
   collection: organisations
   data:
-        description: ""
+    description: ""
 - name: Logeion Literary Society
   collection: organisations
   data:
-        description: ""
+    description: ""
+- name: church
+  collection: organisations
+  data:
+    description: ""
+- name: Columbia University
+  collection: organisations
+  data:
+    description: ""
+- name: Stanford University
+  collection: organisations
+  data:
+    description: ""
+- name: Hamline University
+  collection: organisations
+  data:
+    description: ""
+- name: University of California
+  collection: organisations
+  data:
+    description: ""
+- name: SSU from UC
+  collection: organisations
+  data:
+    description: ""
+- name: German Army
+  collection: organisations
+  data:
+    description: ""
+- name: USAAS
+  collection: organisations
+  data:
+    description: ""
+- name: Wirth Studio
+  collection: organisations
+  data:
+    description: ""
+- name: Epworth League
+  collection: organisations
+  data:
+    description: ""

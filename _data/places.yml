@@ -90,3 +90,16 @@
     sameAs: 
       - name: TGN
       - uri: http://vocab.getty.edu/tgn/2090568
+- name: Schwab's residence
+  collection: places
+  data:
+    description: ""
+- name: Orpheum Theater
+  collection: places
+  data:
+    description: ""
+    address: 35 North 6th Street, Allentown, PA, United States
+    hasMap: https://www.google.ca/maps/place/35+N+6th+St,+Allentown,+PA+18101,+USA/@40.6039659,-75.4723861,17z/data=!3m1!4b1!4m5!3m4!1s0x89c4397b585d8197:0xab9054faa1fb6851!8m2!3d40.6039659!4d-75.4701921?hl=en
+    geo:
+      latitude: 40.6039659
+      longitude: -75.4723861
