@@ -10,6 +10,7 @@ status:              'Draft only, Sept. 2017'
 googlemaps:
   apikey:            'AIzaSyAKirUd8aZPsiObFFH7c-hv5P1jpvBjaeQ'
   zoom:              14
+noautolabel:         ['I', 'Our', 'church', 'the city']
 
 # About/contact
 author:
