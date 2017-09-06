@@ -249,54 +249,6 @@ module Jekyll
     end
   end
 
-  module LODReferencesGenerator
-    require 'nokogiri'
-    require 'json'
-
-    # Creates JSON that links paragraphs (by numeric id) with LOD references within that para.
-    # This can be saved in a page and then used later by whizz-bag JS inerface-y stuff.
-    # 
-    # Feed it a page and get back JSON -- eg: <script>var references = {{ page | lod_references }};</script>
-
-    def lod_references(page)
-      site_url = @context.registers[:site].config['url']
-      base_url = @context.registers[:site].config['baseurl']
-      references = {}
-      lod = {'@context': 'http://schema.org', '@id': page['url']}
-      html = Nokogiri::HTML(page['content'])
-      links = {}
-      html.css("p").each do |para|
-        para.css("a[property=name]").each do |link|
-          links[link.content] = {'url': link['href'], 'name': link['data-name'], 'collection': link['data-collection']}
-          #link.replace(link.content)
-        end
-      end
-      labels = links.keys.sort_by(&:length).reverse!
-      html.css("p").each do |para|
-        labels.each do |label|
-          if para.inner_html =~ /\b#{label}\b/
-            details = links[label]
-            link = lod_link(label, details[:name])
-            para.inner_html = para.inner_html.gsub(/(?<!\>)(?<!\=")\b#{label}\b(?!\<)(?!\")/, link)
-          end
-        end
-      end
-      html.css("p").each_with_index do |para, index|
-        para_refs = []
-        para.css("a[property=name]").each do |link|
-          entity = {'url': link['href'], 'name': link['data-name'], 'collection': link['data-collection']}
-          if not para_refs.include? entity
-            para_refs.push(entity)
-          end
-        end
-        if !para_refs.empty?
-          references["para-#{index}"] = para_refs
-        end
-      end
-      return JSON.generate(references)
-    end
-  end
-
   module LODIdsGenerator
     require 'nokogiri'
 
@@ -321,7 +273,7 @@ module Jekyll
     require 'nokogiri'
     include LODLinkGenerator
 
-    def lod_labels(content)
+    def lod_labels_nokogiri(content)
       html = Nokogiri::HTML(content)
       references = {}
       # gather the explicit links:
@@ -336,15 +288,54 @@ module Jekyll
       html.css("p").each do |para|
         labels.each do |label|
           unless @context.registers[:site].config['noautolabel'].include?(label)
-            if para.inner_html =~ /\b#{label}\b/
+            labelregex = /(?<!\>)(?<!\=")(?<!\-)(?<!\/)\b#{label}\b(?!\<)(?!")(?!\-)(?!\/)/
+            if para.inner_html =~ labelregex
               details = references[label]
               link = lod_link(label, details[:name])
-              para.inner_html = para.inner_html.gsub(/(?<!\>)(?<!\=")(?<!\-)(?<!\/)\b#{label}\b(?!\<)(?!")(?!\-)(?!\/)/, link)
+              para.inner_html = para.inner_html.gsub(labelregex, link)
             end
           end
         end
       end
-      return html.to_html
+      return html
+    end
+
+    def lod_labels(content)
+      lod_labels_nokogiri(content).to_html
+    end
+  end
+
+  module LODReferencesGenerator
+    require 'nokogiri'
+    require 'json'
+
+    include LODLabelsGenerator
+
+    # Creates JSON that links paragraphs (by numeric id) with LOD references within that para.
+    # This can be saved in a page and then used later by whizz-bag JS inerface-y stuff.
+    # 
+    # Feed it a page and get back JSON -- eg: <script>var references = {{ page | lod_references }};</script>
+
+    def lod_references(page)
+      site_url = @context.registers[:site].config['url']
+      base_url = @context.registers[:site].config['baseurl']
+      references = {}
+      lod = {'@context': 'http://schema.org', '@id': page['url']}
+      html = lod_labels_nokogiri(page['content'])
+
+      html.css("p").each_with_index do |para, index|
+        para_refs = []
+        para.css("a[property=name]").each do |link|
+          entity = {'url': link['href'], 'name': link['data-name'], 'collection': link['data-collection']}
+          if not para_refs.include? entity
+            para_refs.push(entity)
+          end
+        end
+        if !para_refs.empty?
+          references["para-#{index}"] = para_refs
+        end
+      end
+      return JSON.generate(references)
     end
   end
 end
