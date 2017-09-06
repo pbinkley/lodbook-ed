@@ -20,7 +20,7 @@ filename: index.html
     function initMap() {
       var thisplace = {lat: {{ page.data.geo.latitude }}, lng: {{ page.data.geo.longitude }}};
       var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 14,
+        zoom: {{ site.googlemaps.zoom }},
         center: thisplace
       });
       var marker = new google.maps.Marker({
@@ -31,7 +31,7 @@ filename: index.html
     }
   </script>
   <script async defer
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKirUd8aZPsiObFFH7c-hv5P1jpvBjaeQ&callback=initMap">
+  src="https://maps.googleapis.com/maps/api/js?key={{ site.googlemaps.apikey }}&callback=initMap">
   </script>
 {% endif %}
 

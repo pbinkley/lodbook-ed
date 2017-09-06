@@ -5,9 +5,11 @@ title:               "Allentown Diary"
 tagline:             'In training for the USAAS at Camp Crane, Allentown, Pennsylvania, in July 1917'
 description:         'An attempt to use Jekyll and Ed. to publish narratives enriched with Linked Open Data'
 url:                 'https://wallandbinkley.com'
-baseurl:             '/rcb/books/lodbook-ed'
+baseurl:             '/projects/2017/lodbook-ed'
 status:              'Draft only, Sept. 2017'
-googlemapsapikey:    'AIzaSyAKirUd8aZPsiObFFH7c-hv5P1jpvBjaeQ'
+googlemaps:
+  apikey:            'AIzaSyAKirUd8aZPsiObFFH7c-hv5P1jpvBjaeQ'
+  zoom:              14
 
 # About/contact
 author:
