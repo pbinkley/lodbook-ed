@@ -336,7 +336,7 @@ module Jekyll
           if para.inner_html =~ /\b#{label}\b/
             details = references[label]
             link = lod_link(label, details[:name])
-            para.inner_html = para.inner_html.gsub(/(?<!\>)(?<!\=")\b#{label}\b(?!\<)(?!")/, link)
+            para.inner_html = para.inner_html.gsub(/(?<!\>)(?<!\=")(?<!\-)(?<!\/)\b#{label}\b(?!\<)(?!")(?!\-)(?!\/)/, link)
           end
         end
       end
