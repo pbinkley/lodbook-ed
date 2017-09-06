@@ -324,6 +324,8 @@ module Jekyll
     def lod_labels(content)
       html = Nokogiri::HTML(content)
       references = {}
+      # gather the explicit links:
+      # references["Roy Needham"] = "<a data-name=\"Roy Needham\" data-collection=\"people\" property=\"name\" href=\"/rcb/books/lodbook-ed/people/roy-needham/\">Roy Needham</a>"
       html.css("p").each do |para|
         para.css("a[property=name]").each do |link|
           references[link.content] = {'url': link['href'], 'name': link['data-name'], 'collection': link['data-collection']}
@@ -336,7 +338,7 @@ module Jekyll
           if para.inner_html =~ /\b#{label}\b/
             details = references[label]
             link = lod_link(label, details[:name])
-            para.inner_html = para.inner_html.gsub(/(?<!\>)(?<!\=")\b#{label}\b(?!\<)(?!")/, link)
+            para.inner_html = para.inner_html.gsub(/(?<!\>)(?<!\=")(?<!\-")\b#{label}\b(?!\<)(?!\-)(?!")/, link)
           end
         end
       end
