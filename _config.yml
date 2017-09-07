@@ -38,6 +38,8 @@ page_gen:
     name: 'name'
   - data: 'places'
     name: 'name'
+  - data: 'events'
+    name: 'name'
 
 data_types:
   people:
@@ -52,6 +54,10 @@ data_types:
     template: 'place'
     dir: 'places'
     type: 'http://schema.org/Place'
+  events:
+    template: 'event'
+    dir: 'events'
+    type: 'http://schema.org/Event'
 
 
 # Markdown specs

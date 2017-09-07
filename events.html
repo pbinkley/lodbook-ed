@@ -1,0 +1,10 @@
+---
+layout: entities
+title: Events
+---
+
+<ul>
+{% for event in site.data.events %}
+<li><a href="{{ event.name | slugify}}/">{{ event.name }}</a></li>
+{% endfor %}
+</ul>
