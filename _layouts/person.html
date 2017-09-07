@@ -7,8 +7,12 @@ filename: index.html
 
 <p>{{ page.data.description }}</p>
 
+{% if page.data.image %}
+<img src="{{ site.baseurl }}/{{ page.data.image }}"></img.
+{% endif %}
+
 {% for linkhash in page.data %}
-{% if linkhash[0] != 'description' and linkhash[0] != 'name' and linkhash[0] != '@type'%}
+{% if linkhash[0] != 'description' and linkhash[0] != 'name' and linkhash[0] != '@type' and linkhash[0] != 'image' %}
 <h3>{{ linkhash[0] }}
 <ul>
 {% for link in linkhash[1] %}

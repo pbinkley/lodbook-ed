@@ -105,6 +105,7 @@
   collection: people
   data:
     description: ""
+    image: pictures/edward-leaf.jpg
 - name: Sammy Seward
   collection: people
   data:
