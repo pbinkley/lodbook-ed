@@ -1,11 +1,11 @@
 - name: SSU 578
   collection: organisations
   data:
-    description: ""
+    description: "The USAAS section to which Robert C. Binkley belonged. It was known as Section 78 in Allentown; it appears that all the sections prepended a 5 to their number at some point, perhaps to avoid clashes with the numbering of pre-USAAS AFS sections. "
 - name: Logeion Literary Society
   collection: organisations
   data:
-    description: ""
+    description: "Seems to be a club at San Jose High School, which Robert C. Binkley attended."
 - name: church
   collection: organisations
   data:
@@ -37,7 +37,7 @@
 - name: USAAS
   collection: organisations
   data:
-    description: ""
+    description: "United States Army Ambulance Service."
 - name: Wirth Studio
   collection: organisations
   data:
@@ -45,4 +45,4 @@
 - name: Epworth League
   collection: organisations
   data:
-    description: ""
+    description: "A popular Methodist youth organization. The Binkley siblings attended it before and during their time at Stanford."
