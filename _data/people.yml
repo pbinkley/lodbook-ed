@@ -18,12 +18,15 @@
       sibling:
         - name: Charles H. Binkley
           collection: people
-        - name: Elizabeth M. Binkley
+        - name: Elizabeth Binkley
           collection: people
 - name: Roy Needham
   collection: people
   data:
-      description: ""
+    description: ""
+    memberOf: 
+      - name: SSU 578
+        collection: organisations
 - name: Wolff
   collection: people
   data:
@@ -48,10 +51,16 @@
   collection: people
   data:
     description: ""
+    memberOf: 
+      - name: SSU 578
+        collection: organisations
 - name: Otto Lachmund
   collection: people
   data:
     description: ""
+    memberOf: 
+      - name: SSU 578
+        collection: organisations
 - name: Charles H. Binkley
   collection: people
   data:
@@ -65,10 +74,13 @@
 - name: William Adams
   collection: people
   data: 
-      description: ""
-      sameAs:
-        - name: VIAF
-          uri: https://viaf.org/viaf/74231003/
+    description: ""
+    sameAs:
+      - name: VIAF
+        uri: https://viaf.org/viaf/74231003/
+    memberOf: 
+      - name: SSU 578
+        collection: organisations
 - name: Mervyn Crobaugh
   collection: people
   data:
@@ -161,7 +173,7 @@
   collection: people
   data:
     description: ""
-- name: Elizabeth M. Binkley
+- name: Elizabeth Binkley
   collection: people
   data:
     description: ""
